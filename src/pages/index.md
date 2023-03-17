@@ -1,11 +1,11 @@
 ---
 permalink: /index.html
-title: ' Eleventy Excellent'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: 'Handcrafted accessible and performant websites for everyone'
+description: 'I make websites with unique designs that priortize performance, accessibility, and user-experience'
 layout: 'home'
 blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+  title: 'Portfolio'
+  intro: ''
 ---
 
 ## An Eleventy starter

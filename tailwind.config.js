@@ -42,7 +42,8 @@ module.exports = {
       auto: 'auto',
       ...theme('spacing')
     }),
-    padding: ({theme}) => theme('spacing')
+    padding: ({theme}) => theme('spacing'),
+    gap: ({theme}) => theme('spacing')
   },
   variantOrder: [
     'first',

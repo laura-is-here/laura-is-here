@@ -1,0 +1,58 @@
+.circles {
+  isolation: isolate;
+}
+
+.circle {
+  min-width: 15vmax;
+  min-height: 15vmax;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  filter: blur(15px);
+}
+
+.circle:nth-last-child(1) {
+  top: 10%;
+  left: 45%;
+}
+
+.circle:nth-last-child(2) {
+  top: 60%;
+  left: 0%;
+}
+
+.circle:nth-last-child(3) {
+  top: 30%;
+  left: 25%;
+}
+
+.circle:nth-last-child(8) {
+  top: 35%;
+  left: 35%;
+  width: 28vmax;
+  height: 28vmax;
+}
+
+.circle:nth-last-child(7) {
+  top: 65%;
+  left: 45%;
+  width: 23vmax;
+  height: 23vmax;
+}
+
+.circle:nth-last-child(6) {
+  top: 15%;
+  left: 85%;
+  width: 25vmax;
+  height: 25vmax;
+}
+
+.circle:nth-last-child(5) {
+  top: 5%;
+  left: 5%;
+}
+
+.circle:nth-last-child(4) {
+  top: 75%;
+  left: 65%;
+}

@@ -5,17 +5,32 @@
     {
       "name": "Display",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Redhat", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": [
+        "Avenir",
+        "Avenir Next LT Pro",
+        "Montserrat",
+        "Corbel",
+        "URW Gothic",
+        "source-sans-pro",
+        "sans-serif"
+      ]
     },
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Inter", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": [
+        "Rockwell",
+        "Rockwell Nova",
+        "Roboto Slab",
+        "DejaVu Serif",
+        "Sitka Small",
+        "serif"
+      ]
     },
     {
       "name": "Mono",
       "description": "Expressive sections, like quotes",
-      "value": ["RobotoMono", "monospace"]
+      "value": ["Nimbus Mono PS", "Courier New", "Cutive Mono", "monospace"]
     }
   ]
 }

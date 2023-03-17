@@ -2,13 +2,20 @@
 layout: base
 ---
 
-<header class="section spot-color-primary">
-  <div class="section__inner">
+<header class="section spot-color-light-glare">
+  <div class="section__inner relative">
     <div class="wrapper flow region">
-      <h1 class="text-center">{{ title }}</h1>
+      <h1 class="text-center text-primary">{{ title }}</h1>
     </div>
+    <!-- <div class="circle bg-secondary-glare"></div>
+    <div class="circle bg-primary-glare"></div>
+    <div class="circle bg-primary"></div>
+    <div class="circle bg-secondary-glare"></div>
+    <div class="circle bg-primary-glare"></div>
+    <div class="circle bg-primary"></div>
+    <div class="circle bg-primary-glare"></div>
+    <div class="circle bg-primary-glare"></div> -->
   </div>
-  {% include 'svg/divider-waves.svg' %}
 </header>
 
 <article class="region">
@@ -32,10 +39,14 @@ layout: base
 
     <li class="card flow overflow-hidden">
       <h3>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        {{ post.data.title }}
       </h3>
-      {% set definedDate = post.date %} {% include "partials/date.njk" %}
       <p>{{ post.data.description }}</p>
+      <div class="flex gap-xs font-mono text-primary">
+        {% if post.data.link %}<a href="{{ post.data.link }}">View the live site</a>{%
+        endif %} {% if post.data.repo %}<a href="{{ post.data.repo }}">View the code</a>{%
+        endif %}
+      </div>
     </li>
 
     {% endfor %}
