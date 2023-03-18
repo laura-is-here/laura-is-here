@@ -1,5 +1,7 @@
 .card {
-  padding: var(--space-s);
+  background-color: var(--color-secondary-glare);
+  padding: var(--space-l);
+  border-radius: var(--border-radius);
   max-width: unset;
 }
 

@@ -3,30 +3,22 @@ layout: base
 ---
 
 <header class="section spot-color-light-glare">
-  <div class="section__inner relative">
+  <div class="section__inner">
     <div class="wrapper flow region">
-      <h1 class="text-center text-primary">{{ title }}</h1>
+      <h1 class="text-center gradient-text">{{ title }}</h1>
     </div>
-    <!-- <div class="circle bg-secondary-glare"></div>
-    <div class="circle bg-primary-glare"></div>
-    <div class="circle bg-primary"></div>
-    <div class="circle bg-secondary-glare"></div>
-    <div class="circle bg-primary-glare"></div>
-    <div class="circle bg-primary"></div>
-    <div class="circle bg-primary-glare"></div>
-    <div class="circle bg-primary-glare"></div> -->
   </div>
 </header>
 
 <article class="region">
-  <div class="wrapper flow prose">
+  <div class="wrapper flow prose text-step-2 italic">
     {{ content | safe }}
   </div>
 </article>
 
 <article class="region" style="--region-space-top: var(--space-s)">
   <div class="wrapper flow prose">
-    <h2>{{ blog.title }}</h2>
+    <h2 class="text-center">{{ blog.title }}</h2>
     <!-- blog intro text is optional. -->
     {% if blog.intro %}
     <p>{{ blog.intro }}</p>
@@ -35,7 +27,7 @@ layout: base
   <!-- TODO: duplicate of partials/blog.njk -->
 
   <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %}
+    {% for post in collections.posts %}
 
     <li class="card flow overflow-hidden">
       <h3>
