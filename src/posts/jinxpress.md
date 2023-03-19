@@ -3,7 +3,7 @@ title: 'Jinx Press'
 image:
   source: ''
   alt: ''
-link: 'https:/jinxpress.org/'
+link: 'https://jinxpress.org/'
 date: 2023-02-15
 tags: portfolio
 repo:
