@@ -3,6 +3,7 @@
   padding: var(--space-l);
   border-radius: var(--border-radius);
   max-width: unset;
+  box-shadow: 0.5rem 0.5rem 0 var(--color-secondary);
 }
 
 .card ::selection {
