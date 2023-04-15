@@ -13,5 +13,5 @@
 
 .gradient-text {
   color: var(--color-secondary);
-  text-shadow: 2px 2px 0 var(--color-primary);
+  text-shadow: 2px 2px 0 var(--color-primary-glare);
 }
