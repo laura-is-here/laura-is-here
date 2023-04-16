@@ -1,0 +1,12 @@
+.bg-pattern {
+  background-color: var(--color-secondary);
+  background-position: -1rem;
+  background-image: radial-gradient(
+      transparent,
+      transparent,
+      var(--color-secondary),
+      var(--color-secondary)
+    ),
+    url('/assets/images/cubes.png');
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
