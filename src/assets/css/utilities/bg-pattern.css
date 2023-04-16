@@ -1,6 +1,6 @@
 .bg-pattern {
   background-color: var(--color-secondary);
-  background-size: 50vmax 50vmax;
+  background-size: 75vmax 75vmax;
   background-image: radial-gradient(
       transparent,
       transparent,
