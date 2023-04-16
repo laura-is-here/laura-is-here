@@ -1,6 +1,5 @@
 .bg-pattern {
   background-color: var(--color-secondary);
-  background-position: -1rem;
   background-image: radial-gradient(
       transparent,
       transparent,
