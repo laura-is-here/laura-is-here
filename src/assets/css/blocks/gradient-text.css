@@ -1,17 +1,15 @@
-/* .gradient-text {
+.gradient-text {
   color: transparent;
-  background: linear-gradient(
-    to top right,
-    var(--color-primary),
-    var(--color-secondary) 33%,
-    #1471bb,
-    #ff8b59 70%,
-    #c569bc
+  background: conic-gradient(
+    var(--color-primary-glare),
+    var(--color-primary-glare) 50%,
+    #c569bc 50%
   );
   background-clip: text;
-} */
+  background-size: 50% 50%;
+}
 
-.gradient-text {
+/* .gradient-text {
   color: var(--color-primary-glare);
   text-shadow: 0.1ex 0.1ex 0 var(--color-primary);
-}
+} */
