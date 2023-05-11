@@ -1,12 +1,13 @@
 .gradient-text {
   color: transparent;
-  background: conic-gradient(
+  background: linear-gradient(
+    45deg,
     var(--color-primary-glare),
     var(--color-primary-glare) 50%,
     #c569bc 50%
   );
   background-clip: text;
-  background-size: 50% 50%;
+  background-size: 150px 150px;
 }
 
 /* .gradient-text {
