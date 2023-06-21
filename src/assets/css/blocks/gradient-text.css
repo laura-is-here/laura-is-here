@@ -2,7 +2,6 @@
   color: transparent;
   background: linear-gradient(
     35deg,
-    var(--color-primary-glare) 20%,
     #c569bc,
     var(--color-primary-glare),
     #c569bc 50%,
